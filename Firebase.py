@@ -2,7 +2,7 @@ import firebase_admin
 
 from firebase_admin import credentials
 from firebase_admin import firestore
-from Backend.env import FIREBASE_CERTIFICATE_KEY
+from env import FIREBASE_CERTIFICATE_KEY
 
 def get_firebase_database(key: str = None):
     """
