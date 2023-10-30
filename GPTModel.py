@@ -2,11 +2,11 @@ import openai
 import json
 import requests  # Required for making API calls
 
-from Backend.env import OpenAIKeys
-from Backend.image_generation import generate_image
-from Backend.help.helper_functions import get_data_from_txt
-from Backend.Firebase import get_firebase_database
-from Backend.Model import Text2TextModel
+from env import OpenAIKeys
+from image_generation.generate import generate_image
+from help.helper_functions import get_data_from_txt
+from Firebase import get_firebase_database
+from Model import Text2TextModel
 
 class OpenAIModel(Text2TextModel):
     def __init__(self, model: str | None = None):
