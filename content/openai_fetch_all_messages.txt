@@ -1,0 +1,1 @@
+Get all the conversations from a chat, you should run this each time the user asks you for something, so you can remember the last messages, to call this you will need the chat_id that is this: {chat_id}.
