@@ -90,3 +90,4 @@
 2023-10-30 18:14:24,207 - INFO -  * Restarting with watchdog (windowsapi)
 2023-10-30 18:14:25,362 - WARNING -  * Debugger is active!
 2023-10-30 18:14:25,365 - INFO -  * Debugger PIN: 574-672-391
+2023-10-30 21:22:02,471 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\env.py', reloading
