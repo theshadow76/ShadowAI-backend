@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import re
+import uuid
 
 def get_data_from_txt(filename: str | Path, transforms: dict = {"\n": " "}) -> str:
     with open(filename, 'r', encoding="utf-8") as f:
@@ -25,3 +26,6 @@ def translate(text, transforms:  dict):
 regex_dict = {
   r"\{([^}]+)\}": "{}"
 }
+
+def GenRandomString(length: int = 10) -> str:
+    return str(uuid.uuid4())[:length]
