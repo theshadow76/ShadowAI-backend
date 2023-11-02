@@ -1,7 +1,8 @@
 from flask import Flask, request, abort, jsonify
 from flask_cors import CORS
-
+from payments.mercadopago import ExecutePayment
 from GPTModel import OpenAIModel
+
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
@@ -57,6 +58,14 @@ def root():
     chat_id = request.args.get('chat_id')
     conv = model.run_conversation(prompt=prompt, chat_id=chat_id, user_id=user_id)
     return conv
+
+@app.route('/pay', methods=['GET'])
+def pay():
+    sub_type = request.args.get('sub_type')
+    execute_payment = ExecutePayment(sub_type=sub_type)
+    response = execute_payment.pay()
+    execute_payment.check_response(response)
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
