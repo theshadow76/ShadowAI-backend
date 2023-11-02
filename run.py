@@ -64,7 +64,6 @@ def pay():
     sub_type = request.args.get('sub_type')
     execute_payment = ExecutePayment(sub_type=sub_type)
     response = execute_payment.pay()
-    execute_payment.check_response(response)
     return response
 
 if __name__ == '__main__':
