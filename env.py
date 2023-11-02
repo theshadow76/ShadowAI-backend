@@ -23,7 +23,7 @@ class PaymentData:
     BACK_URL = "https://theshadowtech.com/payments/shadowai/thanks/"
     SUB_NAME_1 = "Shadow AI - Monthly Subscription - pro"
     SUB_NAME_1_id = "sub_1"
-    SUB_1_PRICE = 5
+    SUB_1_PRICE = 5000
     SUB_NAME_2 = "Shadow AI - Monthly Subscription - premium"
     SUB_NAME_2_id = "sub_2"
-    SUB_2_PRICE = 20
+    SUB_2_PRICE = 20000
