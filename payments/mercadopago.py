@@ -77,3 +77,5 @@ class ExecutePayment:
 
         # Check the response
         mp_preapproval.check_response(response)
+
+        return response.json()
