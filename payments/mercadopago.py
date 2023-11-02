@@ -37,7 +37,6 @@ class ExecutePayment:
         if self.sub_type == "sub_1":
             # Prepare the payload
             payload = {
-                "preapproval_plan_id": GenRandomString(10),
                 "reason": PaymentData.SUB_NAME_1,
                 "external_reference": PaymentData.SUB_NAME_1_id,
                 "payer_email": "test_user@testuser.com",
@@ -55,7 +54,6 @@ class ExecutePayment:
             }
         elif self.sub_type == "sub_2":
             payload = {
-                "preapproval_plan_id": GenRandomString(10),
                 "reason": PaymentData.SUB_NAME_2,
                 "external_reference": PaymentData.SUB_NAME_2_id,
                 "payer_email": "test_user@testuser.com",
