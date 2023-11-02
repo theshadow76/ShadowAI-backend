@@ -40,7 +40,6 @@ class ExecutePayment:
                 "reason": PaymentData.SUB_NAME_1,
                 "external_reference": PaymentData.SUB_NAME_1_id,
                 "payer_email": "test_user@testuser.com",
-                "card_token_id": GenRandomString(10),
                 "auto_recurring": {
                     "frequency": 1,
                     "frequency_type": "months",
@@ -57,7 +56,6 @@ class ExecutePayment:
                 "reason": PaymentData.SUB_NAME_2,
                 "external_reference": PaymentData.SUB_NAME_2_id,
                 "payer_email": "test_user@testuser.com",
-                "card_token_id": GenRandomString(10),
                 "auto_recurring": {
                     "frequency": 1,
                     "frequency_type": "months",
