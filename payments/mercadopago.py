@@ -22,7 +22,6 @@ class MercadoPagoPreapproval:
             print(f"Failed to post data. Status code: {response.status_code}")
             print(response.text)
 
-
 if __name__ == '__main__':
     # Initialize class with your access token
     mp_preapproval = MercadoPagoPreapproval("YOUR_ACCESS_TOKEN")

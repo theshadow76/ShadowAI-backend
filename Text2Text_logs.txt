@@ -244,3 +244,122 @@
 2023-11-01 13:11:28,895 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
 2023-11-01 13:11:28,895 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
 2023-11-01 13:11:29,346 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 13:11:30,369 - WARNING -  * Debugger is active!
+2023-11-01 13:11:30,372 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 15:31:22,862 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\test\\test.py', reloading
+2023-11-01 15:31:23,232 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\Model.py', reloading
+2023-11-01 15:31:23,232 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\help\\helper_functions.py', reloading
+2023-11-01 15:31:23,232 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\__init__.py', reloading
+2023-11-01 15:31:23,235 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\__init__.py', reloading
+2023-11-01 15:31:23,235 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\chat_completion.py', reloading
+2023-11-01 15:31:23,235 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\deployment.py', reloading
+2023-11-01 15:31:23,236 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\engine.py', reloading
+2023-11-01 15:31:23,236 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\file.py', reloading
+2023-11-01 15:31:23,236 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\fine_tune.py', reloading
+2023-11-01 15:31:23,236 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\fine_tuning.py', reloading
+2023-11-01 15:31:23,237 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\model.py', reloading
+2023-11-01 15:31:23,237 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\util.py', reloading
+2023-11-01 15:31:23,237 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\engine_api_resource.py', reloading
+2023-11-01 15:31:23,237 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_requestor.py', reloading
+2023-11-01 15:31:23,238 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\api_resource.py', reloading
+2023-11-01 15:31:23,238 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\openai_response.py', reloading
+2023-11-01 15:31:23,238 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\openai_object.py', reloading
+2023-11-01 15:31:23,239 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\object_classes.py', reloading
+2023-11-01 15:31:23,239 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\experimental\\completion_config.py', reloading
+2023-11-01 15:31:23,239 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\__init__.py', reloading
+2023-11-01 15:31:23,240 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\createable_api_resource.py', reloading
+2023-11-01 15:31:23,240 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\deletable_api_resource.py', reloading
+2023-11-01 15:31:23,240 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\listable_api_resource.py', reloading
+2023-11-01 15:31:23,240 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\nested_resource_class_methods.py', reloading
+2023-11-01 15:31:23,240 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\paginatable_api_resource.py', reloading
+2023-11-01 15:31:23,241 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openai\\api_resources\\abstract\\updateable_api_resource.py', reloading
+2023-11-01 15:31:23,241 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\firebase_admin\\__init__.py', reloading
+2023-11-01 15:31:23,241 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\firebase_admin\\credentials.py', reloading
+2023-11-01 15:31:23,241 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\firebase_admin\\firestore.py', reloading
+2023-11-01 15:31:23,242 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\firebase_admin\\_utils.py', reloading
+2023-11-01 15:31:23,254 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\Logs\\Logging.py', reloading
+2023-11-01 15:31:23,254 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\image_generation\\generate.py', reloading
+2023-11-01 15:31:23,265 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__init__.py', reloading
+2023-11-01 15:31:23,265 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\app.py', reloading
+2023-11-01 15:31:23,266 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\globals.py', reloading
+2023-11-01 15:31:23,266 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\wrappers.py', reloading
+2023-11-01 15:31:23,266 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2023-11-01 15:31:23,266 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2023-11-01 15:31:23,266 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\typing.py', reloading
+2023-11-01 15:31:23,268 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\app.py', reloading
+2023-11-01 15:31:23,268 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2023-11-01 15:31:23,268 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2023-11-01 15:31:23,269 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\utils.py', reloading
+2023-11-01 15:31:23,269 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2023-11-01 15:31:23,269 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2023-11-01 15:31:23,562 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 15:31:24,767 - WARNING -  * Debugger is active!
+2023-11-01 15:31:24,770 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 15:38:33,923 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\__init__.py', reloading
+2023-11-01 15:38:33,923 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\__init__.py', reloading
+2023-11-01 15:38:33,924 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\__init__.py', reloading
+2023-11-01 15:38:33,924 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\__init__.py', reloading
+2023-11-01 15:38:33,924 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\__init__.py', reloading
+2023-11-01 15:38:33,924 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\__init__.py', reloading
+2023-11-01 15:38:33,925 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\adodbapi\\__init__.py', reloading
+2023-11-01 15:38:33,925 - INFO -  * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.1776.0_x64__qbz5n2kfra8p0\\Lib\\__phello__\\__init__.py', reloading
+2023-11-01 15:38:33,925 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\apiclient\\__init__.py', reloading
+2023-11-01 15:38:33,925 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\bip32utils\\__init__.py', reloading
+2023-11-01 15:38:33,926 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\bitcash\\__init__.py', reloading
+2023-11-01 15:38:33,926 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cloudpickle\\__init__.py', reloading
+2023-11-01 15:38:33,926 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\copier\\__init__.py', reloading
+2023-11-01 15:38:33,927 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\dill\\__init__.py', reloading
+2023-11-01 15:38:33,927 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flet\\__init__.py', reloading
+2023-11-01 15:38:33,927 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flet_core\\__init__.py', reloading
+2023-11-01 15:38:33,927 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flet_runtime\\__init__.py', reloading
+2023-11-01 15:38:33,927 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\googleapiclient\\__init__.py', reloading
+2023-11-01 15:38:33,929 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\grpc_status\\__init__.py', reloading
+2023-11-01 15:38:33,929 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\gym_notices\\__init__.py', reloading
+2023-11-01 15:38:33,929 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\iqoptionapi\\__init__.py', reloading
+2023-11-01 15:38:33,930 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jinja2_ansible_filters\\__init__.py', reloading
+2023-11-01 15:38:33,930 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\msgpack\\__init__.py', reloading
+2023-11-01 15:38:33,930 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyasn1_modules\\__init__.py', reloading
+2023-11-01 15:38:33,931 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pystyle\\__init__.py', reloading
+2023-11-01 15:38:33,931 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\requestes\\__init__.py', reloading
+2023-11-01 15:38:33,931 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websocket\\__init__.py', reloading
+2023-11-01 15:38:33,931 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yamlinclude\\__init__.py', reloading
+2023-11-01 15:38:33,932 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pythonwin\\pywin\\__init__.py', reloading
+2023-11-01 15:38:35,083 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 15:38:36,116 - WARNING -  * Debugger is active!
+2023-11-01 15:38:36,119 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 15:55:43,317 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 15:55:43,326 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 15:55:43,326 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 15:55:43,326 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 15:55:44,277 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 15:55:45,264 - WARNING -  * Debugger is active!
+2023-11-01 15:55:45,268 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 16:02:43,424 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\wss\\server.py', reloading
+2023-11-01 16:02:44,554 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 16:02:45,675 - WARNING -  * Debugger is active!
+2023-11-01 16:02:45,679 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 16:04:06,767 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\__init__.py', reloading
+2023-11-01 16:04:07,028 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 16:04:08,087 - WARNING -  * Debugger is active!
+2023-11-01 16:04:08,090 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 16:05:06,630 - INFO -  * Detected change in 'C:\\Users\\vigop\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\websockets\\server.py', reloading
+2023-11-01 16:05:06,812 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 16:05:07,837 - WARNING -  * Debugger is active!
+2023-11-01 16:05:07,839 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 16:05:54,150 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 16:05:54,159 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 16:05:54,159 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 16:05:54,159 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 16:05:55,190 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 16:05:56,178 - WARNING -  * Debugger is active!
+2023-11-01 16:05:56,182 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 20:07:40,024 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 20:07:40,032 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 20:07:40,032 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 20:07:40,687 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 20:07:42,057 - WARNING -  * Debugger is active!
+2023-11-01 20:07:42,062 - INFO -  * Debugger PIN: 574-672-391
+2023-11-01 21:03:07,329 - INFO -  * Detected change in 'c:\\Users\\vigop\\Downloads\\Backend\\Backend\\payments\\mercadopago.py', reloading
+2023-11-01 21:03:08,466 - INFO -  * Restarting with watchdog (windowsapi)
+2023-11-01 21:03:10,532 - WARNING -  * Debugger is active!
+2023-11-01 21:03:10,537 - INFO -  * Debugger PIN: 574-672-391
