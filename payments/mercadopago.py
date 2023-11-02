@@ -1,7 +1,7 @@
 import requests
 import json
 from env import PaymentData
-from help.helper_functions import GenRandomString
+from help.helper_functions import GenRandomString, get_start_end_dates
 
 class MercadoPagoPreapproval:
     def __init__(self, access_token):
@@ -27,6 +27,7 @@ class MercadoPagoPreapproval:
 class ExecutePayment:
     def __init__(self, sub_type):
         self.sub_type = sub_type
+        self.start_date, self.end_date = get_start_end_dates()
     def pay(self):
         # Initialize class with your access token
         mp_preapproval = MercadoPagoPreapproval(PaymentData.MERCADO_PAGO_SECRET_KEY_TEST)
@@ -44,8 +45,8 @@ class ExecutePayment:
                 "auto_recurring": {
                     "frequency": 1,
                     "frequency_type": "months",
-                    "start_date": "2020-06-02T13:07:14.260Z",
-                    "end_date": "2022-07-20T15:59:52.581Z",
+                    "start_date": self.start_date,
+                    "end_date": self.end_date,
                     "transaction_amount": PaymentData.SUB_1_PRICE,
                     "currency_id": "USD"
                 },
@@ -62,8 +63,8 @@ class ExecutePayment:
                 "auto_recurring": {
                     "frequency": 1,
                     "frequency_type": "months",
-                    "start_date": "2020-06-02T13:07:14.260Z",
-                    "end_date": "2022-07-20T15:59:52.581Z",
+                    "start_date": self.start_date,
+                    "end_date": self.end_date,
                     "transaction_amount": PaymentData.SUB_2_PRICE,
                     "currency_id": "USD"
                 },
