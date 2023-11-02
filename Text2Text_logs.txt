@@ -477,3 +477,15 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1801, in make_response
     raise TypeError(
 TypeError: The view function for 'pay' did not return a valid response. The function either returned None or ended without a return statement.
+2023-11-02 19:20:34,647 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:20:34,915 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:31:38,761 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:31:39,035 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:33:15,954 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:33:16,234 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:36:56,190 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:36:56,502 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:37:56,790 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:37:57,117 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:39:11,370 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:39:11,702 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
