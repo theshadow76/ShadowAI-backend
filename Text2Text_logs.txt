@@ -363,3 +363,129 @@
 2023-11-01 21:03:08,466 - INFO -  * Restarting with watchdog (windowsapi)
 2023-11-01 21:03:10,532 - WARNING -  * Debugger is active!
 2023-11-01 21:03:10,537 - INFO -  * Debugger PIN: 574-672-391
+2023-11-02 17:50:27,184 - ERROR - Exception on /image [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ShadowAI-backend/run.py", line 37, in root
+    conv = model.run_conversation(prompt=prompt, chat_id=chat_id, user_id=user_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 87, in run_conversation
+    functions = self._get_functions(user_id=user_id, chat_id=chat_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 31, in _get_functions
+    "description": get_data_from_txt(OpenAIKeys.GENERATE_IMAGE_PATH),
+  File "/home/ShadowAI-backend/help/helper_functions.py", line 9, in get_data_from_txt
+    with open(filename, 'r', encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'content\\openai_generate_image.txt'
+2023-11-02 17:51:11,093 - ERROR - Exception on /image [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ShadowAI-backend/run.py", line 37, in root
+    conv = model.run_conversation(prompt=prompt, chat_id=chat_id, user_id=user_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 87, in run_conversation
+    functions = self._get_functions(user_id=user_id, chat_id=chat_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 31, in _get_functions
+    "description": get_data_from_txt(OpenAIKeys.GENERATE_IMAGE_PATH),
+  File "/home/ShadowAI-backend/help/helper_functions.py", line 9, in get_data_from_txt
+    with open(filename, 'r', encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'content\\openai_generate_image.txt'
+2023-11-02 18:26:12,481 - ERROR - Exception on /image [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ShadowAI-backend/run.py", line 37, in root
+    conv = model.run_conversation(prompt=prompt, chat_id=chat_id, user_id=user_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 87, in run_conversation
+    functions = self._get_functions(user_id=user_id, chat_id=chat_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 31, in _get_functions
+    "description": get_data_from_txt(OpenAIKeys.GENERATE_IMAGE_PATH),
+  File "/home/ShadowAI-backend/help/helper_functions.py", line 9, in get_data_from_txt
+    with open(filename, 'r', encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'content\\openai_generate_image.txt'
+2023-11-02 18:27:01,281 - ERROR - Exception on /image [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ShadowAI-backend/run.py", line 37, in root
+    conv = model.run_conversation(prompt=prompt, chat_id=chat_id, user_id=user_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 87, in run_conversation
+    functions = self._get_functions(user_id=user_id, chat_id=chat_id)
+  File "/home/ShadowAI-backend/GPTModel.py", line 31, in _get_functions
+    "description": get_data_from_txt(OpenAIKeys.GENERATE_IMAGE_PATH),
+  File "/home/ShadowAI-backend/help/helper_functions.py", line 9, in get_data_from_txt
+    with open(filename, 'r', encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'content\\openai_generate_image.txt'
+2023-11-02 19:13:20,381 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:13:20,649 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:13:20,653 - ERROR - Exception on /pay [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask_cors/extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ShadowAI-backend/run.py", line 67, in pay
+    execute_payment.check_response(response)
+AttributeError: 'ExecutePayment' object has no attribute 'check_response'
+2023-11-02 19:17:32,687 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:17:32,957 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:17:32,959 - ERROR - Exception on /pay [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1487, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1506, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1801, in make_response
+    raise TypeError(
+TypeError: The view function for 'pay' did not return a valid response. The function either returned None or ended without a return statement.
+2023-11-02 19:20:34,647 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:20:34,915 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:31:38,761 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:31:39,035 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:33:15,954 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:33:16,234 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 404 None
+2023-11-02 19:36:56,190 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:36:56,502 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:37:56,790 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:37:57,117 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-02 19:39:11,370 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
+2023-11-02 19:39:11,702 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
