@@ -46,7 +46,7 @@ class ExecutePayment:
                     "start_date": self.start_date,
                     "end_date": self.end_date,
                     "transaction_amount": PaymentData.SUB_1_PRICE,
-                    "currency_id": "USD"
+                    "currency_id": "CLP"
                 },
                 "back_url": PaymentData.BACK_URL,
                 "status": "authorized"
@@ -62,7 +62,7 @@ class ExecutePayment:
                     "start_date": self.start_date,
                     "end_date": self.end_date,
                     "transaction_amount": PaymentData.SUB_2_PRICE,
-                    "currency_id": "USD"
+                    "currency_id": "CLP"
                 },
                 "back_url": PaymentData.BACK_URL,
                 "status": "authorized"
