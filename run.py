@@ -22,7 +22,28 @@ def mercado_pago_webhook():
 
     # At this point, `data` is a dictionary containing the data sent by Mercado Pago.
     # You would add your processing logic here.
-    print(data)  # For debugging purposes, print the data to the console.
+    print(f"The data is: {data}")  # For debugging purposes, print the data to the console.
+
+    event_type = data.get('type')
+    event_data = data.get('data')
+
+    if event_type == 'payment':
+        payment_status = event_data.get('status')
+        if payment_status == 'approved':
+            print('Payment was successful')
+        elif payment_status == 'cancelled':
+            print('Payment was canceled')
+    elif event_type == 'preapproval':
+        subscription_status = event_data.get('status')
+    if event_type == 'subscription_preapproval':
+        # Handle creation/update of subscription
+        print("Subscription preapproval")
+    elif event_type == 'subscription_preapproval_plan':
+        # Handle creation/update of subscription plan
+        print("Subscription preapproval plan")
+    elif event_type == 'subscription_authorized_payment':
+        # Handle creation/update of recurring payment for a subscription
+        print("Subscription authorized payment")
 
     # Respond to Mercado Pago to acknowledge receipt of the webhook.
     # According to the Mercado Pago documentation, you should respond with a
