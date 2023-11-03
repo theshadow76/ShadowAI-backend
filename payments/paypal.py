@@ -1,4 +1,5 @@
 import requests
+from env import PaymentData
 
 class PayPalAPI:
     def __init__(self):
@@ -42,18 +43,19 @@ class ExecutePayPalOrder:
         self.paypal_api = PayPalAPI()
     def CreateProduct(self):
         product_response = self.paypal_api.create_product(
-            name="Video Streaming Service",
-            description="Video streaming service",
+            name=PaymentData.SUB_NAME_1,
+            description=PaymentData.SUB_NAME_1_DESC,
             product_type="SERVICE",
             category="SOFTWARE",
-            image_url="https://example.com/streaming.jpg",
-            home_url="https://example.com/home"
+            image_url=PaymentData.SUB_IMG,
+            home_url=PaymentData.BACK_URL
         )
+        print(product_response.text) #TODO: Get the data for the porduct ID
     def CreatePlan(self):
         plan_response = self.paypal_api.create_plan(
-        product_id="PROD-XXCD1234QWER65782",
-        name="Video Streaming Service Plan",
-        description="Video Streaming Service basic plan",
+        product_id="PROD-XXCD1234QWER65782", #TODO: Replace with the product ID
+        name=PaymentData.SUB_NAME_1,
+        description=PaymentData.SUB_NAME_1_DESC,
         status="ACTIVE",
         billing_cycles=[
             {
@@ -66,7 +68,7 @@ class ExecutePayPalOrder:
                 "total_cycles": 2,
                 "pricing_scheme": {
                     "fixed_price": {
-                        "value": "3",
+                        "value": PaymentData.SUB_1_PRICE_USD,
                         "currency_code": "USD"
                     }
                 }
@@ -76,7 +78,7 @@ class ExecutePayPalOrder:
         payment_preferences={
             "auto_bill_outstanding": True,
             "setup_fee": {
-                "value": "10",
+                "value": PaymentData.SUB_1_PRICE_USD,
                 "currency_code": "USD"
             },
             "setup_fee_failure_action": "CONTINUE",
