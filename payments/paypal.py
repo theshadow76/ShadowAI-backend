@@ -1,12 +1,14 @@
 import requests
 from env import PaymentData
+from help.helper_functions import GenRandomString
 
 class PayPalAPI:
     def __init__(self):
         self.headers = {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'Prefer': 'return=representation'
+            'Prefer': 'return=representation',
+            'Authorization': f'Basic {PaymentData.PAYPAL_SANDBOX_CLIENT_ID}:{PaymentData.PAYPAL_SANDBOX_SECRET_KEY_1}'
         }
 
     def create_product(self, name, description, product_type, category, image_url, home_url):
@@ -24,7 +26,9 @@ class PayPalAPI:
 
     def create_plan(self, product_id, name, description, status, billing_cycles, payment_preferences, taxes):
         url = 'https://api-m.sandbox.paypal.com/v1/billing/plans'
-        self.headers.update({'PayPal-Request-Id': 'PLAN-18062019-001'})
+        ID = GenRandomString(10)
+        ID2 = GenRandomString(5)
+        self.headers.update({'PayPal-Request-Id': f'PLAN-{ID}-{ID2}'})
         data = {
             "product_id": product_id,
             "name": name,
@@ -73,7 +77,6 @@ class ExecutePayPalOrder:
                     }
                 }
             },
-            # ... (other billing cycles)
         ],
         payment_preferences={
             "auto_bill_outstanding": True,
