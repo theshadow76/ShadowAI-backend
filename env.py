@@ -1,4 +1,5 @@
 FIREBASE_CERTIFICATE_KEY = "shadowai-812b5-firebase-adminsdk-jtdms-129bf6829f.json"
+SHADOW_AI_URL = "https://shadowai.app"
 
 class OpenAIKeys:
     OPENAI_API_KEY = "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"

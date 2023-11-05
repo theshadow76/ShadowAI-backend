@@ -1,8 +1,11 @@
 import requests
 from env import PaymentData
+import env as EnvData
 from help.helper_functions import GenRandomString
 import base64
 import json
+from datetime import datetime, timedelta
+import pytz  # to handle timezone
 
 class PayPalAPI:
     def __init__(self):
@@ -134,15 +137,22 @@ class ExecutePayPalOrder:
             "inclusive": False
         }
     )
-        return f"The plan response is: {plan_response.json()}"
+        return plan_response.json()['id']
     
     def CreateSubscription(self):
-        plan_id = "P-5ML4271244454362WXNWU5NQ"  # Replace with actual plan_id from your CreatePlan method
-        start_time = "2018-11-01T00:00:00Z"
-        quantity = "20"
+        plan_id = self.CreatePlan()
+        # Get the current UTC date and time
+        current_utc_dt = datetime.utcnow().replace(tzinfo=pytz.utc)
+
+        # Add a future offset (e.g., 1 day) to the current date and time
+        future_utc_dt = current_utc_dt + timedelta(days=1)
+
+        # Format the future date and time as an ISO 8601 string
+        start_time = future_utc_dt.isoformat()
+        quantity = "1"
         shipping_amount = {
             "currency_code": "USD",
-            "value": "10.00"
+            "value": PaymentData.SUB_1_PRICE_USD
         }
         subscriber = {
             "name": {
@@ -165,7 +175,7 @@ class ExecutePayPalOrder:
             }
         }
         application_context = {
-            "brand_name": "walmart",
+            "brand_name": "The Sunset Code",
             "locale": "en-US",
             "shipping_preference": "SET_PROVIDED_ADDRESS",
             "user_action": "SUBSCRIBE_NOW",
@@ -173,8 +183,8 @@ class ExecutePayPalOrder:
                 "payer_selected": "PAYPAL",
                 "payee_preferred": "IMMEDIATE_PAYMENT_REQUIRED"
             },
-            "return_url": "https://example.com/returnUrl",
-            "cancel_url": "https://example.com/cancelUrl"
+            "return_url": PaymentData.BACK_URL,
+            "cancel_url": EnvData.SHADOW_AI_URL
         }
         subscription_response = self.paypal_api.create_subscription(
             plan_id=plan_id,
