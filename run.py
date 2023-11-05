@@ -2,6 +2,8 @@ from flask import Flask, request, abort, jsonify
 from flask_cors import CORS
 from payments.mercadopago import ExecutePayment
 from GPTModel import OpenAIModel
+from payments.paypal import ExecutePayPalOrder
+from Firebase import FirePay
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -65,6 +67,20 @@ def pay():
     execute_payment = ExecutePayment(sub_type=sub_type)
     response = execute_payment.pay()
     return response
+
+@app.route('/paypal', methods=['GET'])
+def paypal():
+    user_id = request.args.get('user_id')
+    sub_type = request.args.get('sub_type')
+    execute = ExecutePayPalOrder()
+    fp = FirePay()
+    response1 = execute.CreateSubscription()
+    
+    sub_id = response1.json()['id']
+    sub_status = response1.json()['status']
+
+    fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
+    return fpres
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
