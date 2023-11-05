@@ -1,14 +1,17 @@
 import requests
 from env import PaymentData
 from help.helper_functions import GenRandomString
+import base64
 
 class PayPalAPI:
     def __init__(self):
+        credentials = f"{PaymentData.PAYPAL_SANDBOX_CLIENT_ID}:{PaymentData.PAYPAL_SANDBOX_SECRET_KEY_1}"
+        basic_auth = base64.b64encode(credentials.encode()).decode()
         self.headers = {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'Prefer': 'return=representation',
-            'Authorization': f'Basic {PaymentData.PAYPAL_SANDBOX_CLIENT_ID}:{PaymentData.PAYPAL_SANDBOX_SECRET_KEY_1}'
+            'Authorization': f'Basic {basic_auth}'
         }
 
     def create_product(self, name, description, product_type, category, image_url, home_url):
@@ -54,10 +57,12 @@ class ExecutePayPalOrder:
             image_url=PaymentData.SUB_IMG,
             home_url=PaymentData.BACK_URL
         )
-        print(product_response.text) #TODO: Get the data for the porduct ID
+        prod_id = product_response.json()['id']
+        return prod_id
     def CreatePlan(self):
+        product_id = self.CreateProduct()
         plan_response = self.paypal_api.create_plan(
-        product_id="PROD-XXCD1234QWER65782", #TODO: Replace with the product ID
+        product_id=product_id,
         name=PaymentData.SUB_NAME_1,
         description=PaymentData.SUB_NAME_1_DESC,
         status="ACTIVE",
@@ -92,5 +97,6 @@ class ExecutePayPalOrder:
             "inclusive": False
         }
     )
+        return f"The plan response is: {plan_response.json()}"
     def execute(self):
         pass
