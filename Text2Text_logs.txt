@@ -578,3 +578,382 @@ TypeError: The view function for 'pay' did not return a valid response. The func
 2023-11-06 10:57:02,916 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 2023-11-06 10:57:02,938 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 2023-11-06 10:57:03,013 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:03] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 11:33:11,910 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:33:11,910 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:33:11,919 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:33:12,728 - WARNING -  * Debugger is active!
+2023-11-06 11:33:12,737 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:33:19,185 - INFO - 127.0.0.1 - - [06/Nov/2023 11:33:19] "[35m[1mGET /paypal HTTP/1.1[0m" 500 -
+2023-11-06 11:33:19,256 - INFO - 127.0.0.1 - - [06/Nov/2023 11:33:19] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-06 11:33:19,256 - INFO - 127.0.0.1 - - [06/Nov/2023 11:33:19] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-06 11:33:19,280 - INFO - 127.0.0.1 - - [06/Nov/2023 11:33:19] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 11:33:19,429 - INFO - 127.0.0.1 - - [06/Nov/2023 11:33:19] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 11:33:19,480 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76506755): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:33:19,480 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:33:19,498 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76506764): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:33:19,498 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:33:20,183 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76506785): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:33:20,183 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:33:20,267 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76506788): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:33:20,268 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:34:56,680 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76510431): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:34:56,681 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 11:34:56,682 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 11:34:56,932 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76510449): is_file, is_inode_meta_mod
+2023-11-06 11:34:56,933 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:34:57,377 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:34:58,373 - WARNING -  * Debugger is active!
+2023-11-06 11:34:58,380 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:34:59,345 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76510980): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:34:59,345 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:34:59,358 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133306688, flags=18300, id=76510989): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:34:59,358 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:34:59,358 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:34:59,359 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:34:59,359 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:34:59,359 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:34:59,545 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76511001): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:34:59,545 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 11:34:59,546 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 11:35:00,525 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:35:01,357 - WARNING -  * Debugger is active!
+2023-11-06 11:35:01,368 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:35:03,305 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76511439): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:35:03,306 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 11:35:03,307 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 11:35:03,508 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:35:04,352 - WARNING -  * Debugger is active!
+2023-11-06 11:35:04,359 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:35:05,607 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76512135): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:05,607 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:35:05,985 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76512281): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:05,985 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:35:10,362 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76513007): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:35:10,362 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 11:35:10,364 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 11:35:10,571 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:35:11,724 - WARNING -  * Debugger is active!
+2023-11-06 11:35:11,732 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:35:13,461 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76513854): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:13,461 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:35:13,981 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76513927): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:13,981 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:35:14,995 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76514062): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:35:14,995 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 11:35:14,996 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 11:35:15,376 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76514215): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:15,377 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:35:15,391 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76514224): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:15,391 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:35:15,421 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76514230): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:35:15,421 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:35:15,890 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:37:29,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:37:29,106 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:37:29,115 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:37:29,938 - WARNING -  * Debugger is active!
+2023-11-06 11:37:29,946 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:37:34,388 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:37:34,871 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76522336): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:37:34,872 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76522345): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:37:34,872 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:37:34,873 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:37:35,517 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76522377): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:37:35,517 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:37:35,564 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e400, id=76522380): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:37:35,564 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 11:37:35,722 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/catalogs/products HTTP/1.1" 201 672
+2023-11-06 11:37:35,726 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:37:36,896 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/plans HTTP/1.1" 201 1619
+2023-11-06 11:37:36,903 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:37:38,247 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/subscriptions HTTP/1.1" 201 993
+2023-11-06 11:37:38,270 - INFO - 127.0.0.1 - - [06/Nov/2023 11:37:38] "[35m[1mGET /paypal HTTP/1.1[0m" 500 -
+2023-11-06 11:37:38,373 - INFO - 127.0.0.1 - - [06/Nov/2023 11:37:38] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-06 11:37:38,374 - INFO - 127.0.0.1 - - [06/Nov/2023 11:37:38] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-06 11:37:38,390 - INFO - 127.0.0.1 - - [06/Nov/2023 11:37:38] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 11:37:38,475 - INFO - 127.0.0.1 - - [06/Nov/2023 11:37:38] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 11:38:09,327 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76523469): is_file, is_inode_meta_mod
+2023-11-06 11:38:09,328 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:38:10,834 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11000, id=76523668): is_file, is_modified
+2023-11-06 11:38:10,835 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:38:10,849 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133307553, flags=18300, id=76523677): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:38:10,849 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:38:10,852 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:38:10,852 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:38:10,852 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:38:10,852 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:38:12,279 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76530255): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:12,279 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76530264): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:12,279 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:12,279 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:38:12,870 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76530372): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:12,870 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:13,001 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76530375): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:13,001 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:38:14,898 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76530630): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:14,899 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:14,914 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76530639): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:14,914 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:38:26,912 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76531064): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:38:26,913 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:38:26,915 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:38:27,531 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:38:28,593 - WARNING -  * Debugger is active!
+2023-11-06 11:38:28,602 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:38:35,497 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76532445): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:35,498 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:35,787 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76532460): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:35,787 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:38,633 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76532564): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:38:38,634 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:38:38,636 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:38:38,899 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:38:39,896 - WARNING -  * Debugger is active!
+2023-11-06 11:38:39,903 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:38:42,283 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76532969): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:38:42,283 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:38:42,285 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:38:43,074 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:38:44,033 - WARNING -  * Debugger is active!
+2023-11-06 11:38:44,040 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:38:48,957 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76535281): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:48,957 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:49,886 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76535922): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:38:49,886 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:38:55,762 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76536901): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:38:55,764 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:38:55,766 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:38:55,775 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76536904): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:38:55,775 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:38:55,775 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:38:56,388 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:38:57,354 - WARNING -  * Debugger is active!
+2023-11-06 11:38:57,364 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:39:01,847 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76537782): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:39:01,848 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:39:02,091 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76537808): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:39:02,091 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:39:04,316 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76537841): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:39:04,317 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:39:04,318 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:39:04,613 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:39:05,749 - WARNING -  * Debugger is active!
+2023-11-06 11:39:05,757 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:39:07,686 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76538255): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:39:07,687 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:39:07,689 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:39:07,912 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:39:08,794 - WARNING -  * Debugger is active!
+2023-11-06 11:39:08,802 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:39:16,879 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:39:16,880 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:39:16,890 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:39:17,939 - WARNING -  * Debugger is active!
+2023-11-06 11:39:17,948 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:39:24,469 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:39:25,755 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/catalogs/products HTTP/1.1" 201 672
+2023-11-06 11:39:25,768 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:39:26,926 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/plans HTTP/1.1" 201 1619
+2023-11-06 11:39:26,933 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:39:28,140 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/subscriptions HTTP/1.1" 201 993
+2023-11-06 11:39:28,148 - INFO - 127.0.0.1 - - [06/Nov/2023 11:39:28] "GET /paypal HTTP/1.1" 200 -
+2023-11-06 11:40:25,823 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments/paypal.py", inode=133232039, flags=11400, id=76542395): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:40:25,824 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments/paypal.py', is_directory=False>
+2023-11-06 11:40:25,827 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments/paypal.py', reloading
+2023-11-06 11:40:26,648 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:40:53,706 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:40:53,707 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:40:53,717 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:40:54,593 - WARNING -  * Debugger is active!
+2023-11-06 11:40:54,601 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:40:54,658 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76546929): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:40:54,659 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:40:57,108 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:40:58,329 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/catalogs/products HTTP/1.1" 201 672
+2023-11-06 11:40:58,339 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:40:59,436 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/plans HTTP/1.1" 201 1619
+2023-11-06 11:40:59,447 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:41:00,763 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/subscriptions HTTP/1.1" 201 993
+2023-11-06 11:41:00,767 - INFO - 127.0.0.1 - - [06/Nov/2023 11:41:00] "GET /paypal HTTP/1.1" 200 -
+2023-11-06 11:41:01,038 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76547788): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,038 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments", inode=131481078, flags=2e000, id=76547794): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,041 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:41:01,049 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments', is_directory=True>
+2023-11-06 11:41:01,049 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments", inode=131481078, flags=2e000, id=76547797): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,050 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments', is_directory=True>
+2023-11-06 11:41:01,071 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments/__pycache__", inode=131584058, flags=2e000, id=76547806): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,071 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments/__pycache__', is_directory=True>
+2023-11-06 11:41:01,383 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76547818): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,383 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:41:01,414 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments", inode=131481078, flags=2e400, id=76547821): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:01,415 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/payments', is_directory=True>
+2023-11-06 11:41:13,771 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76548272): is_file, is_inode_meta_mod
+2023-11-06 11:41:13,773 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:41:15,257 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76548508): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:41:15,257 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:41:15,271 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133309360, flags=18300, id=76548517): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:41:15,271 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:41:15,271 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:41:15,272 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:41:15,272 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:41:15,272 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:41:15,892 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76548679): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:15,893 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76548688): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:15,893 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:41:15,893 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:41:18,692 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76549052): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:18,693 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:41:18,714 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76549061): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:18,714 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:41:18,729 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76549067): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:18,729 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:41:18,892 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76549079): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:41:18,892 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:41:28,697 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76549478): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:41:28,697 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:41:28,699 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:41:29,555 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:41:30,852 - WARNING -  * Debugger is active!
+2023-11-06 11:41:30,863 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:41:32,736 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76550125): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:41:32,736 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:41:32,738 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:41:33,010 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:44:08,274 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:44:08,275 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:44:08,285 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:44:09,197 - WARNING -  * Debugger is active!
+2023-11-06 11:44:09,215 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:44:16,183 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76560999): is_file, is_inode_meta_mod
+2023-11-06 11:44:16,184 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:44:17,793 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76561205): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:44:17,794 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:44:17,804 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133310273, flags=18300, id=76561214): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:44:17,805 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:44:17,805 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:44:17,805 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:44:17,805 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:44:17,805 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:44:18,480 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76561385): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:18,480 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:44:18,498 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76561394): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:18,498 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:44:18,900 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76561537): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:18,901 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:44:19,026 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76561540): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:19,026 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:44:21,244 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76561958): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:21,245 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:44:21,258 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76561967): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:21,258 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:44:21,276 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76561979): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:21,276 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:44:21,757 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76562008): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:44:21,757 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:45:07,980 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:45:09,084 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/catalogs/products HTTP/1.1" 201 672
+2023-11-06 11:45:09,097 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:45:10,325 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/plans HTTP/1.1" 201 1619
+2023-11-06 11:45:10,343 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:45:11,769 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/subscriptions HTTP/1.1" 201 993
+2023-11-06 11:45:12,211 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2023-11-06 11:45:12,303 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-11-06 11:45:12,518 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-11-06 11:45:13,487 - INFO - 127.0.0.1 - - [06/Nov/2023 11:45:13] "GET /paypal?user_id=pAFhpPKbAicfk9Dstt23PP3wbUv1&sub_type=sub_1 HTTP/1.1" 200 -
+2023-11-06 11:45:26,039 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76565828): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:45:26,040 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:45:26,041 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:45:26,933 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:45:28,159 - WARNING -  * Debugger is active!
+2023-11-06 11:45:28,168 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:45:29,184 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76566195): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:45:29,184 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:45:29,186 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:45:29,299 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:45:30,480 - WARNING -  * Debugger is active!
+2023-11-06 11:45:30,488 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:45:33,244 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py", inode=133232040, flags=11400, id=76566737): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:45:33,244 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', is_directory=False>
+2023-11-06 11:45:33,246 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/run.py', reloading
+2023-11-06 11:45:33,649 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:45:34,699 - WARNING -  * Debugger is active!
+2023-11-06 11:45:34,706 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:45:35,841 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76567205): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:45:35,841 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:45:49,697 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 11:45:49,698 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 11:45:49,705 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 11:45:50,493 - WARNING -  * Debugger is active!
+2023-11-06 11:45:50,502 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 11:46:00,009 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:46:00,977 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/catalogs/products HTTP/1.1" 201 672
+2023-11-06 11:46:00,990 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:46:02,245 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/plans HTTP/1.1" 201 1619
+2023-11-06 11:46:02,257 - DEBUG - Starting new HTTPS connection (1): api-m.sandbox.paypal.com:443
+2023-11-06 11:46:03,469 - DEBUG - https://api-m.sandbox.paypal.com:443 "POST /v1/billing/subscriptions HTTP/1.1" 201 993
+2023-11-06 11:46:03,844 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2023-11-06 11:46:03,847 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-11-06 11:46:04,243 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-11-06 11:46:05,192 - INFO - 127.0.0.1 - - [06/Nov/2023 11:46:05] "GET /paypal?user_id=pAFhpPKbAicfk9Dstt23PP3wbUv1&sub_type=sub_1 HTTP/1.1" 200 -
+2023-11-06 11:47:17,838 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76572094): is_file, is_inode_meta_mod
+2023-11-06 11:47:17,838 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:47:20,888 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76572396): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:20,889 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:47:20,901 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76572405): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:20,901 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:47:22,660 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76572503): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:47:22,660 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:47:22,675 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133311125, flags=18300, id=76572512): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:47:22,675 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:47:22,675 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:47:22,675 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:47:22,676 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:47:22,676 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:47:26,153 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76573049): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:26,154 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76573058): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:26,154 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:47:26,154 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:47:26,550 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76573070): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:26,550 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:47:26,613 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76573073): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:47:26,614 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:50:57,123 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76595904): is_file, is_inode_meta_mod
+2023-11-06 11:50:57,124 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:50:58,638 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76596292): is_file, is_inode_meta_mod, is_modified
+2023-11-06 11:50:58,638 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 11:50:58,652 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133312521, flags=18300, id=76596301): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 11:50:58,652 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:50:58,653 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:50:58,653 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:50:58,653 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 11:50:58,653 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 11:51:00,164 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76596758): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:00,164 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:51:00,175 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e000, id=76596767): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:00,176 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:51:00,854 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76596999): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:00,854 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:51:01,003 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76597021): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:01,003 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
+2023-11-06 11:51:02,914 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76601374): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:02,915 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 11:51:02,925 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git", inode=131480970, flags=2e400, id=76601440): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 11:51:02,925 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git', is_directory=True>
