@@ -83,4 +83,4 @@ def paypal():
     return fpres
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001) #NOTE: Change to 5000 when deploying to production

@@ -9,7 +9,15 @@ class FirePay:
     def __init__(self):
         self.ref = db.reference('users')
 
-    def add_values(self, user_id, PaymentSubID, SubType, PaymentStatus):
+    def add_values(self, user_id, PaymentSubID, SubType, PaymentStatus, key: str = None):
+            # Initialize Firebase app
+        if key:
+            cred = credentials.Certificate(key)  # Replace with your Firebase project's certificate path
+        else: 
+            cred = credentials.Certificate(FIREBASE_CERTIFICATE_KEY)
+        firebase_admin.initialize_app(cred, {
+            "databaseURL": "shadowai-812b5.firebaseapp.com"
+        })
         user_ref = self.ref.child(user_id)
         try:
             user_ref.set({

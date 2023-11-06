@@ -489,3 +489,92 @@ TypeError: The view function for 'pay' did not return a valid response. The func
 2023-11-02 19:37:57,117 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
 2023-11-02 19:39:11,370 - DEBUG - Starting new HTTPS connection (1): api.mercadopago.com:443
 2023-11-02 19:39:11,702 - DEBUG - https://api.mercadopago.com:443 "POST /preapproval HTTP/1.1" 400 None
+2023-11-06 10:10:02,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 10:10:02,080 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 10:10:03,066 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:10:03,952 - WARNING -  * Debugger is active!
+2023-11-06 10:10:03,972 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:10:26,943 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:26] "[33mGET / HTTP/1.1[0m" 404 -
+2023-11-06 10:10:27,237 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-06 10:10:42,435 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:42] "[35m[1mGET /paypal HTTP/1.1[0m" 500 -
+2023-11-06 10:10:42,504 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:42] "GET /paypal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-06 10:10:42,504 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:42] "GET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-06 10:10:42,531 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:42] "GET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-06 10:10:42,591 - INFO - 127.0.0.1 - - [06/Nov/2023 10:10:42] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 10:14:38,089 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=10400, id=76289500): is_file, is_inode_meta_mod
+2023-11-06 10:14:38,091 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 10:14:39,417 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD", inode=131481288, flags=11400, id=76289679): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:14:39,417 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock", inode=133291324, flags=18300, id=76289688): is_coalesced, is_created, is_file, is_removed, is_xattr_mod
+2023-11-06 10:14:39,417 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/FETCH_HEAD', is_directory=False>
+2023-11-06 10:14:39,417 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 10:14:39,417 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 10:14:39,418 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 10:14:39,418 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects/maintenance.lock', is_directory=False>
+2023-11-06 10:14:39,418 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/.git/objects', is_directory=True>
+2023-11-06 10:15:48,890 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76294027): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:15:48,891 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 10:15:48,892 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 10:15:49,866 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:54:46,456 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 10:54:46,457 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 10:54:46,513 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:54:47,501 - WARNING -  * Debugger is active!
+2023-11-06 10:54:47,520 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:54:55,157 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e000, id=76442921): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:54:55,158 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 10:54:55,173 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e000, id=76442930): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:54:55,174 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 10:54:55,769 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76442960): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:54:55,769 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 10:54:58,273 - INFO - 127.0.0.1 - - [06/Nov/2023 10:54:58] "[35m[1mGET /paypal HTTP/1.1[0m" 500 -
+2023-11-06 10:54:58,414 - INFO - 127.0.0.1 - - [06/Nov/2023 10:54:58] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-06 10:54:58,415 - INFO - 127.0.0.1 - - [06/Nov/2023 10:54:58] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-06 10:54:58,442 - INFO - 127.0.0.1 - - [06/Nov/2023 10:54:58] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 10:54:58,607 - INFO - 127.0.0.1 - - [06/Nov/2023 10:54:58] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 10:56:19,392 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76452453): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:56:19,393 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 10:56:19,402 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 10:56:19,761 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:56:21,012 - WARNING -  * Debugger is active!
+2023-11-06 10:56:21,021 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:56:26,316 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76453971): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:56:26,318 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 10:56:26,323 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 10:56:27,327 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:56:28,478 - WARNING -  * Debugger is active!
+2023-11-06 10:56:28,489 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:56:28,914 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76454842): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:56:28,915 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 10:56:28,916 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 10:56:29,012 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76454899): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:56:29,012 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 10:56:29,638 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:56:30,915 - WARNING -  * Debugger is active!
+2023-11-06 10:56:30,922 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:56:31,067 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py", inode=133232032, flags=11400, id=76461370): is_file, is_inode_meta_mod, is_modified
+2023-11-06 10:56:31,067 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', is_directory=False>
+2023-11-06 10:56:31,068 - INFO -  * Detected change in '/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/Firebase.py', reloading
+2023-11-06 10:56:32,054 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:56:52,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.116.17:5001
+2023-11-06 10:56:52,321 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-06 10:56:52,337 - INFO -  * Restarting with watchdog (fsevents)
+2023-11-06 10:56:53,189 - WARNING -  * Debugger is active!
+2023-11-06 10:56:53,197 - INFO -  * Debugger PIN: 730-597-553
+2023-11-06 10:56:57,937 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend", inode=131480969, flags=2e400, id=76468189): is_directory, is_inode_meta_mod, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:56:57,939 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend', is_directory=True>
+2023-11-06 10:56:57,952 - DEBUG - NativeEvent(path="/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__", inode=131481060, flags=2e000, id=76468198): is_directory, is_item_finder_info_modified, is_owner_change, is_xattr_mod
+2023-11-06 10:56:57,953 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/vigowalker/Desktop/CODE/py/ShadowAI-backend/__pycache__', is_directory=True>
+2023-11-06 10:57:02,806 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[35m[1mGET /paypal HTTP/1.1[0m" 500 -
+2023-11-06 10:57:02,914 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-06 10:57:02,916 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-06 10:57:02,938 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:02] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-06 10:57:03,013 - INFO - 127.0.0.1 - - [06/Nov/2023 10:57:03] "[36mGET /paypal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
