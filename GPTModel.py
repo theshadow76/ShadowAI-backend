@@ -7,6 +7,7 @@ from image_generation.generate import generate_image
 from help.helper_functions import get_data_from_txt
 from Firebase import get_firebase_database
 from Model import Text2TextModel
+from tools.tools import GetLinkData, SearchStable
 
 class OpenAIModel(Text2TextModel):
     def __init__(self, model: str | None = None):
@@ -21,6 +22,8 @@ class OpenAIModel(Text2TextModel):
         self.available_functions = {
             "generate_image": generate_image,
             "fetch_all_messages": self.fetch_all_messages,
+            "GetLinkData" : GetLinkData,
+            "SearchStable" : SearchStable
         }
         self.logger = self.setup_logger()
 
