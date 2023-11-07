@@ -86,4 +86,17 @@ def SearchStable(query):
             return output
     except Exception as e:
         return f"Error: {e}"
+
+def GetLinkData(link):
+    try:
+        response = requests.get(link)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            # Extract text from the soup object, e.g., get text from the <body> tag
+            page_text = soup.body.get_text(separator=' ', strip=True)
+            return page_text
+        else:
+            print(f"Failed to retrieve {link}, status code: {response.status_code}")
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed: {e}")
     
