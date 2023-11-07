@@ -1,4 +1,4 @@
-from tools.tools import GoogleSearch, HuggingfaceAPIBart, SearchStable
+from image_generation.generate import generate_image
 
-data = SearchStable("What is the best programming language?")
-print(data)
+response = generate_image("A kitten looking at the sky")
+print(response)
