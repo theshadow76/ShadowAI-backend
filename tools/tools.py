@@ -97,6 +97,8 @@ def GetLinkData(link):
             return page_text
         else:
             print(f"Failed to retrieve {link}, status code: {response.status_code}")
+            return f"Failed to retrieve {link}, status code: {response.status_code}"
     except requests.exceptions.RequestException as e:
         print(f"Request failed: {e}")
+        return f"Request failed: {e}"
     
