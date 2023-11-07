@@ -50,6 +50,16 @@ class OpenAIModel(Text2TextModel):
                     },
                     "required" : ["chat_id"]
                 }
+            },
+            {
+                "name" : "GetLinkData",
+                "description" : get_data_from_txt(OpenAIKeys.GET_LINK_DATA_PATH),
+                "parameters" : {
+                    "type" : "object",
+                    "properties" : {
+                        "link" : {"type" : "string", "description" : "The link of the provided url"}
+                    },
+                }
             }
         ]
 
@@ -88,8 +98,8 @@ class OpenAIModel(Text2TextModel):
 
     def run_conversation(self, prompt, chat_id, user_id):
         functions = self._get_functions(user_id=user_id, chat_id=chat_id)
-        prompt = []
-        prevmessages = self.fetch_all_messages(chat_id=chat_id, description=prompt)
+        prevmessages = self.fetch_all_messages(chat_id=chat_id, description=[])
+        print(prevmessages)
         # prevmessages_clean = prevmessages[0]['content']
         messages = [{"role": "system", "content": get_data_from_txt(OpenAIKeys.SYSTEM_PATH)}, {"role" : "user", "content" : f"{prompt}"}]
         

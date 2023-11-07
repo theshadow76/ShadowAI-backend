@@ -94,6 +94,8 @@ def GetLinkData(link):
             soup = BeautifulSoup(response.text, 'html.parser')
             # Extract text from the soup object, e.g., get text from the <body> tag
             page_text = soup.body.get_text(separator=' ', strip=True)
+            print("Done")
+            page_text = page_text[:1000]
             return page_text
         else:
             print(f"Failed to retrieve {link}, status code: {response.status_code}")
