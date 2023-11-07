@@ -109,7 +109,7 @@ def GetLinkData(link):
 def execute_python_code(script_path):
     try:
         # Run the Python script using the system's default python interpreter
-        result = subprocess.run(["python", script_path], capture_output=True, text=True, check=True)
+        result = subprocess.run(["python3", script_path], capture_output=True, text=True, check=True)
         
         # Check if the command was successful
         if result.returncode == 0:
@@ -128,7 +128,7 @@ def execute_python_code(script_path):
 
 def SavePythonScript(content):
     try:
-        with open("temp.py", "a") as f:
+        with open("/Users/vigowalker/Documents/temp.py", "a") as f:
             f.write(content)
             f.close()
         return "Done"
@@ -154,18 +154,16 @@ def UsePythonCodeInterpreter(code):
         except Exception as e:
             return f"Error: {e}"
         try:
-            data = execute_python_code("temp.py")
+            stdout = execute_python_code("/Users/vigowalker/Documents/temp.py")
         except Exception as e:
             return f"Error: {e}"
         try:
-            DelTempPy("temp.py")
+            DelTempPy("/Users/vigowalker/Documents/temp.py")
         except Exception as e:
             return f"Error: {e}"
         
-        if data == None:
-            return "No output"
-        elif data:
-            return data
+        if stdout:
+            return stdout
         else:
             return "No output"
     except Exception as e:
