@@ -9,7 +9,7 @@ class GoogleSearch:
     def GoogleSearchTool(self, query):
         api_key = 'AIzaSyCgyLeK_yXOrKy0_asD-NpMuAxVv9gJuvU'
         cse_id = 'a4decc2606f9c4cef'
-        search_results = google_search('Python', api_key, cse_id)
+        search_results = google_search(query, api_key, cse_id)
 
         data = []
 
