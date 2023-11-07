@@ -2,6 +2,8 @@ from tools.web.WebTool import SearchTool, google_search
 from bs4 import BeautifulSoup
 import requests
 from requests.exceptions import RequestException
+import subprocess
+import os
 
 class GoogleSearch:
     def __init__(self) -> None:
@@ -103,4 +105,68 @@ def GetLinkData(link):
     except requests.exceptions.RequestException as e:
         print(f"Request failed: {e}")
         return f"Request failed: {e}"
-    
+
+def execute_python_code(script_path):
+    try:
+        # Run the Python script using the system's default python interpreter
+        result = subprocess.run(["python", script_path], capture_output=True, text=True, check=True)
+        
+        # Check if the command was successful
+        if result.returncode == 0:
+            print("Execution successful.")
+            print("Output:\n", result.stdout)
+            return result.stdout
+        else:
+            print("Error in script execution.")
+            print("Error:\n", result.stderr)
+            return result.stderr
+
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred while executing the script: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+def SavePythonScript(content):
+    try:
+        with open("temp.py", "a") as f:
+            f.write(content)
+            f.close()
+        return "Done"
+    except Exception as e:
+        return f"Error: {e}"
+
+def DelTempPy(file_path):
+    # Check if the file exists
+    if os.path.exists(file_path):
+        # Delete the file
+        os.remove(file_path)
+        print(f"The file {file_path} has been deleted.")
+        return "Done"
+    else:
+        print(f"The file {file_path} does not exist.")
+        return f"The file {file_path} does not exist."
+
+def UsePythonCodeInterpreter(code):
+    try:
+        stdout = None
+        try:
+            SavePythonScript(code)
+        except Exception as e:
+            return f"Error: {e}"
+        try:
+            data = execute_python_code("temp.py")
+        except Exception as e:
+            return f"Error: {e}"
+        try:
+            DelTempPy("temp.py")
+        except Exception as e:
+            return f"Error: {e}"
+        
+        if data == None:
+            return "No output"
+        elif data:
+            return data
+        else:
+            return "No output"
+    except Exception as e:
+        return f"Error: {e}"
