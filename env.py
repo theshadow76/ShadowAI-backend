@@ -7,6 +7,7 @@ class OpenAIKeys:
     GENERATE_IMAGE_PATH = "content/openai_generate_image.txt"
     SYSTEM_PATH = "content/openai_system.txt"
     GET_LINK_DATA_PATH = "content/openai_get_data_from_link.txt"
+    CODE_INTERPRETER_PATH = "content/openai_code_interpreter.txt"
 
 class PaymentData:
     MERCADO_PAGO_SECRET_KEY_TEST = "TEST-4606595367560964-110114-45be7ec6a7a9d72ae2c224c293567657-821973251"

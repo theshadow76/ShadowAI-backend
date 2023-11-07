@@ -7,7 +7,7 @@ from image_generation.generate import generate_image
 from help.helper_functions import get_data_from_txt
 from Firebase import get_firebase_database
 from Model import Text2TextModel
-from tools.tools import GetLinkData, SearchStable
+from tools.tools import GetLinkData, SearchStable, UsePythonCodeInterpreter
 
 class OpenAIModel(Text2TextModel):
     def __init__(self, model: str | None = None):
@@ -23,7 +23,8 @@ class OpenAIModel(Text2TextModel):
             "generate_image": generate_image,
             "fetch_all_messages": self.fetch_all_messages,
             "GetLinkData" : GetLinkData,
-            "SearchStable" : SearchStable
+            "SearchStable" : SearchStable,
+            "UsePythonCodeInterpreter" : UsePythonCodeInterpreter
         }
         self.logger = self.setup_logger()
 
@@ -58,6 +59,16 @@ class OpenAIModel(Text2TextModel):
                     "type" : "object",
                     "properties" : {
                         "link" : {"type" : "string", "description" : "The link of the provided url"}
+                    },
+                }
+            },
+            {
+                "name" : "UsePythonCodeInterpreter",
+                "description" : get_data_from_txt(OpenAIKeys.CODE_INTERPRETER_PATH),
+                "parameters" : {
+                    "type" : "object",
+                    "properties" : {
+                        "code" : {"type" : "string", "description" : "The code you want to execute"}
                     },
                 }
             }
