@@ -194,7 +194,7 @@ class ExecutePayPalOrder:
             subscriber=subscriber,
             application_context=application_context
         )
-        return f"The subscription response is: {subscription_response.json()}"
+        return subscription_response.json()
 
 
 

@@ -70,17 +70,23 @@ def pay():
 
 @app.route('/paypal', methods=['GET'])
 def paypal():
-    user_id = request.args.get('user_id')
-    sub_type = request.args.get('sub_type')
-    execute = ExecutePayPalOrder()
-    fp = FirePay()
-    response1 = execute.CreateSubscription()
-    
-    sub_id = response1.json()['id']
-    sub_status = response1.json()['status']
+    try:
+        user_id = request.args.get('user_id')
+        sub_type = request.args.get('sub_type')
+        execute = ExecutePayPalOrder()
+        fp = FirePay()
+        response1 = execute.CreateSubscription()
+        
+        sub_id = response1['id']
+        sub_status = response1['status']
 
-    fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
-    return fpres
+        if user_id and sub_type is not None:
+            fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
+            return fpres
+        else:
+            return {"Error": "User ID or Subscription Type is missing"}
+    except Exception as e:
+        return {"Error": str(e)}
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5001) #NOTE: Change to 5000 when deploying to production

@@ -1,0 +1,1 @@
+Get the content from a link that provides the user, to use this function you will need to add a param called link, wich is the link that the user provided, you need to use this function each time the user provides a link.

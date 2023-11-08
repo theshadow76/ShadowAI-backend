@@ -1,5 +1,4 @@
-from payments.paypal import ExecutePayPalOrder
+from image_generation.generate import generate_image
 
-execute = ExecutePayPalOrder()
-response1 = execute.CreateSubscription()
-print(response1)
+response = generate_image("A kitten looking at the sky")
+print(response)

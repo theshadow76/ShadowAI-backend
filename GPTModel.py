@@ -7,6 +7,7 @@ from image_generation.generate import generate_image
 from help.helper_functions import get_data_from_txt
 from Firebase import get_firebase_database
 from Model import Text2TextModel
+from tools.tools import GetLinkData, SearchStable, UsePythonCodeInterpreter
 
 class OpenAIModel(Text2TextModel):
     def __init__(self, model: str | None = None):
@@ -21,6 +22,9 @@ class OpenAIModel(Text2TextModel):
         self.available_functions = {
             "generate_image": generate_image,
             "fetch_all_messages": self.fetch_all_messages,
+            "GetLinkData" : GetLinkData,
+            "SearchStable" : SearchStable,
+            "UsePythonCodeInterpreter" : UsePythonCodeInterpreter
         }
         self.logger = self.setup_logger()
 
@@ -46,6 +50,26 @@ class OpenAIModel(Text2TextModel):
                         "chat_id" : {"type" : "string", "description" : f"The id of the chat, please use this id: {kwargs['chat_id']}"}
                     },
                     "required" : ["chat_id"]
+                }
+            },
+            {
+                "name" : "GetLinkData",
+                "description" : get_data_from_txt(OpenAIKeys.GET_LINK_DATA_PATH),
+                "parameters" : {
+                    "type" : "object",
+                    "properties" : {
+                        "link" : {"type" : "string", "description" : "The link of the provided url"}
+                    },
+                }
+            },
+            {
+                "name" : "UsePythonCodeInterpreter",
+                "description" : get_data_from_txt(OpenAIKeys.CODE_INTERPRETER_PATH),
+                "parameters" : {
+                    "type" : "object",
+                    "properties" : {
+                        "code" : {"type" : "string", "description" : "The code you want to execute"}
+                    },
                 }
             }
         ]
@@ -85,8 +109,8 @@ class OpenAIModel(Text2TextModel):
 
     def run_conversation(self, prompt, chat_id, user_id):
         functions = self._get_functions(user_id=user_id, chat_id=chat_id)
-        prompt = []
-        prevmessages = self.fetch_all_messages(chat_id=chat_id, description=prompt)
+        prevmessages = self.fetch_all_messages(chat_id=chat_id, description=[])
+        print(prevmessages)
         # prevmessages_clean = prevmessages[0]['content']
         messages = [{"role": "system", "content": get_data_from_txt(OpenAIKeys.SYSTEM_PATH)}, {"role" : "user", "content" : f"{prompt}"}]
         
