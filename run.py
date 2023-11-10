@@ -2,6 +2,8 @@ from flask import Flask, request, abort, jsonify
 from flask_cors import CORS
 from payments.mercadopago import ExecutePayment
 from GPTModel import OpenAIModel
+from payments.paypal import ExecutePayPalOrder
+from Firebase import FirePay
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -66,5 +68,25 @@ def pay():
     response = execute_payment.pay()
     return response
 
+@app.route('/paypal', methods=['GET'])
+def paypal():
+    try:
+        user_id = request.args.get('user_id')
+        sub_type = request.args.get('sub_type')
+        execute = ExecutePayPalOrder()
+        fp = FirePay()
+        response1 = execute.CreateSubscription()
+        
+        sub_id = response1['id']
+        sub_status = response1['status']
+
+        if user_id and sub_type is not None:
+            fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
+            return fpres
+        else:
+            return {"Error": "User ID or Subscription Type is missing"}
+    except Exception as e:
+        return {"Error": str(e)}
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000) #NOTE: Change to 5000 when deploying to production
