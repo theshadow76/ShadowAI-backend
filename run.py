@@ -112,6 +112,7 @@ def paypal_webhook():
     if data['event_type'] == 'PAYMENT.SALE.COMPLETED':
         # Payment completed successfully, take action based on the payment amount
         fp = FirePay()
+        print(f"The data is: {data}")
         with open(f'{data["resource"]["id"]}.json', 'r') as f:
             data = json.load(f)
         fp.update_status(data['user_id'], 'Active')
