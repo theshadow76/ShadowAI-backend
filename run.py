@@ -4,6 +4,7 @@ from payments.mercadopago import ExecutePayment
 from GPTModel import OpenAIModel
 from payments.paypal import ExecutePayPalOrder
 from Firebase import FirePay
+import json
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
@@ -82,7 +83,15 @@ def paypal():
 
         if user_id and sub_type is not None:
             fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
-            return {"Success": "User added to database", "PayPalResponse": response1, "FirebaseResponse": fpres}
+            resdata = {
+                "user_id": user_id,
+                "sub_id": sub_id,
+                "sub_type": sub_type,
+                "sub_status": sub_status
+            }
+            with open(f'{sub_id}.json', 'w') as f:
+                json.dump(resdata, f)
+            return {"Success": "User added to database", "PayPalResponse": response1, "FirebaseResponse": fpres, "PayLink" : response1['links'][0]['href']}
         else:
             return {"Error": "User ID or Subscription Type is missing"}
     except Exception as e:
@@ -96,6 +105,17 @@ def paypal_webhook():
     # TODO: Validate and process the webhook data here
     # This is where you would typically verify the webhook data with PayPal,
     # and then process it according to your application's needs.
+
+    if data is None:
+        # No data sent in the request body
+        return jsonify({"status": "invalid request"}), 400
+    if data['event_type'] == 'PAYMENT.SALE.COMPLETED':
+        # Payment completed successfully, take action based on the payment amount
+        fp = FirePay()
+        with open(f'{data["resource"]["id"]}.json', 'r') as f:
+            data = json.load(f)
+        fp.update_status(data['user_id'], 'Active')
+        print("Payment completed successfully")
 
     # For now, we'll just print the data and return a success response
     print("Received PayPal webhook:", data)
