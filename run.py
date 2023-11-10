@@ -82,7 +82,7 @@ def paypal():
 
         if user_id and sub_type is not None:
             fpres = fp.add_values(user_id, sub_id, sub_type, sub_status)
-            return fpres
+            return {"Success": "User added to database", "PayPalResponse": response1, "FirebaseResponse": fpres}
         else:
             return {"Error": "User ID or Subscription Type is missing"}
     except Exception as e:
