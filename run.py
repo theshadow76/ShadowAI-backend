@@ -88,5 +88,18 @@ def paypal():
     except Exception as e:
         return {"Error": str(e)}
 
+@app.route('/paypal-webhook-test', methods=['POST'])
+def paypal_webhook():
+    # Get the webhook data sent from PayPal
+    data = request.json
+
+    # TODO: Validate and process the webhook data here
+    # This is where you would typically verify the webhook data with PayPal,
+    # and then process it according to your application's needs.
+
+    # For now, we'll just print the data and return a success response
+    print("Received PayPal webhook:", data)
+    return jsonify({"status": "success"}), 200
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000) #NOTE: Change to 5000 when deploying to production
