@@ -1,4 +1,4 @@
-from tools.web.WebTool import SearchTool, google_search
+from tools.web.WebTool import google_search
 from bs4 import BeautifulSoup
 import requests
 from requests.exceptions import RequestException
