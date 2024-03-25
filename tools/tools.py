@@ -9,8 +9,7 @@ class GoogleSearch:
     def __init__(self) -> None:
         pass
     def GoogleSearchTool(self, query):
-        api_key = 'AIzaSyCgyLeK_yXOrKy0_asD-NpMuAxVv9gJuvU'
-        cse_id = 'a4decc2606f9c4cef'
+        cse_id = ''
         search_results = google_search(query, api_key, cse_id)
 
         data = []
@@ -76,7 +75,7 @@ def SearchStable(query):
     try:
         data = GoogleSearch().GetData(query)
 
-        api_key = "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"  # This should be kept secret and safe.
+         # This should be kept secret and safe.
         huggingface_api = HuggingfaceAPIBart(api_key)
 
         output = huggingface_api.query({
